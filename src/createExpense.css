@@ -1,0 +1,127 @@
+/* Expense.css */
+
+.expense-page {
+  display: flex;
+  font-family: Arial, sans-serif;
+  width:100%;
+}
+
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.company-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.company-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 10px 0;
+  color: #555;
+  cursor: pointer;
+}
+
+.sidebar nav ul li.active {
+  font-weight: light;
+  color: #f7f7f7;
+}
+
+.expense-container {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.expense-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.expense-header h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.expense-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.expense-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.button-group {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.create-btn,
+.create-add-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.create-add-btn {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.create-btn:hover,
+.create-add-btn:hover {
+  opacity: 0.9;
+}
