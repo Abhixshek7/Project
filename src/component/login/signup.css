@@ -1,0 +1,148 @@
+/* Overall Container */
+.container {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Left Panel */
+.left-panel {
+  flex: 1;
+  padding: 20px;
+  background-color: #f7f8fa;
+  border-radius: 8px 0 0 8px;
+  text-align: center;
+}
+
+.left-panel .logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.left-panel h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.left-panel p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Right Panel */
+.right-panel {
+  flex: 1;
+  padding: 40px 30px;
+  background-color: #fff;
+  border-radius: 0 8px 8px 0;
+}
+
+.right-panel .input-group {
+  margin-bottom: 20px;
+}
+
+.right-panel label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.right-panel input[type="text"],
+.right-panel input[type="email"],
+.right-panel input[type="password"],
+.right-panel input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+  transition: border-color 0.3s;
+}
+
+.right-panel input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-btn, .google-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fffefe;
+  color: #000000;
+  gap: 8px;
+}
+
+.google-btn img {
+  width: 18px;
+}
+
+.google-btn:hover {
+  background-color: #ddd6d5;
+}
+
+/* Divider */
+.or-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  color: #aaa;
+}
+
+.or-container hr {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.or-container span {
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+/* Sign-In Text */
+.signin-text {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.signin-text a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.signin-text a:hover {
+  color: #0056b3;
+}
