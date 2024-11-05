@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
-import google from "../../assets/google.png";
-import logo from "../../assets/logo.webp";
+// import google from "../../assets/google.png";
+import logo from "../../assets/logo.jpeg";
 
 import { useNavigate } from 'react-router-dom';
 import './login.css';
@@ -59,11 +59,11 @@ function Login() {
                     <button type="submit" className="sign-in-btn">Sign in</button>
 
                     <button type="button" className="google-signin">
-                        <img 
+                        {/* <img 
                             src={google} 
                             alt="Google Logo" 
                             className="google-logo"
-                        />
+                        /> */}
                         Sign in with Google
                     </button>
 

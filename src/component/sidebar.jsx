@@ -1,7 +1,7 @@
 import React from 'react';
 import './sidebar.css';
 import logo from "../assets/logo.jpeg";
-
+import {Link} from 'react-router-dom';
 
 
 function Sidebar() {

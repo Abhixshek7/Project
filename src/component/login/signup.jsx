@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import google from "../../assets/google.png";
-import logo from "../../assets/logo.webp";
+// import google from "../../assets/google.png";
+import logo from "../../assets/logo.jpeg";
 import './signup.css'; // Import CSS here for component styling
 
 function LoginForm() {
@@ -58,7 +58,7 @@ function LoginForm() {
           </div>
 
           <button type="button" className="google-btn">
-            <img src={google} alt="Google Logo" />
+            {/* <img src={google} alt="Google Logo" /> */}
             Sign in with Google
           </button>
 
