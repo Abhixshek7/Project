@@ -83,4 +83,8 @@ nav ul li:hover {
     padding: 10px 14px;
     font-size: 14px;
   }
+  .nav ul li image{
+    height: 10px;
+    width: 10px;
+  }
 }

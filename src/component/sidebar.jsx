@@ -1,9 +1,7 @@
 import React from 'react';
 import './sidebar.css';
 import logo from "../assets/logo.jpeg";
-
-
-
+import house from "../assets/house.png";
 function Sidebar() {
   return (
     <div className="sidebar">
@@ -14,7 +12,7 @@ function Sidebar() {
       <div className='list'>
       <nav>
         <ul >
-          <li className='listelements'>Dashboard</li>
+          <li className='listelements'><img className='image' src={house}></img>Dashboard</li>
           <li className='listelements'>Sales</li>
           <li className='listelements'>Expenses</li>
           <li className='listelements'>Inventory</li>

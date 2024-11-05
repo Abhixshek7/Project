@@ -1,0 +1,154 @@
+/* Main container */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc; /* Light background for the whole page */
+  padding: 1rem; /* Padding to prevent the content from touching the edges on smaller screens */
+}
+
+/* Inner container to control the width and ensure centering */
+.inner-container {
+  display: flex;
+  width: 70%; /* Controls the overall width of the login card */
+  max-width: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow for elevation */
+  background-color: #fff; /* White background for the card */
+}
+
+/* Left Section (Logo and Tagline) */
+.left-section {
+  width: 30%; /* Half width to balance the design */
+  background-color: #e8f0fe;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.left-section h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.left-section p {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.logo {
+  max-width: 100px;
+  margin-bottom: 1.5rem;
+}
+
+/* Right Section (Form and Buttons) */
+.right-section {
+  width: 25%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-section h3 {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+}
+
+.right-section input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.right-section input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Forgot password link */
+.forgot-password {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+  text-align: right;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+/* Sign-in button */
+.sign-in-btn {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+  transition: background-color 0.2s ease;
+}
+
+.sign-in-btn:hover {
+  background-color: #555;
+}
+
+/* Google sign-in button */
+.google-signin {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.google-signin:hover {
+  background-color: #f1f1f1;
+}
+
+.google-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Create account section */
+.create-account {
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.create-account-btn {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.create-account-btn:hover {
+  text-decoration: underline;
+}
