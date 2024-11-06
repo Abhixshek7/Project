@@ -12,16 +12,18 @@ import PurchaseList from "./component/purchaseList/purchaseTax.jsx";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App(){
   return(
-
+<>
     <div style = {{display:"flex"}}>
-      <Router>
-        <Routes>
-
-       
-    <Route path = "/forget" element = {<ForgetPassword/>}/>
-    </Routes>
-    </Router>
+      
+      
+      <Sidebar/>
+      <Dashboard/>
+      <Expense/>
+      
     </div>
+    
+    
+    </>
   );
 }
 
