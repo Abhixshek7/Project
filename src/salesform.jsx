@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './SalesForm.css'
-
+import './SalesFrom.css'
 
 const SalesForm = () => {
   const [formData, setFormData] = useState({
@@ -35,7 +34,6 @@ const SalesForm = () => {
     <div className="sales-page">
       <div className="main-content">
         <header className="header">
-          <img src={logo} alt="Company Logo" className="logo" />
           <h1 className="title">DEMO</h1>
           <div className="admin-profile">
             <span className="admin-text">Admin</span>

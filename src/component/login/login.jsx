@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import google from "../../assets/google.png";
 import logo from "../../assets/logo.webp";
+import LoginForm from './signup';
 
 import { useNavigate } from 'react-router-dom';
 import './login.css';
@@ -8,6 +9,7 @@ import './login.css';
 function Login() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const [signIn,setSignIn] = useState(false);
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -16,6 +18,10 @@ function Login() {
     };
 
     const navigate = useNavigate();
+
+    const handleLogin = () =>{
+        setSignIn(!signIn)
+    }
     
     return (
         <div className="login-container">
@@ -70,6 +76,7 @@ function Login() {
                     <div className="create-account">
                         <span>Don't have an account? </span>
                         <div 
+                        onClick={handleLogin}
                             type="button" 
                             className="create-account-btn">
                             Create New Account

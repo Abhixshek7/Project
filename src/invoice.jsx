@@ -1,6 +1,6 @@
 import React from 'react';
 import './Invoice.css';
-import logo from './assets/logo.jpeg'
+
 
 const Invoice = () => {
   return (
